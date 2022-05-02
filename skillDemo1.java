@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
-public class skillDemo1() {
+public class skillDemo1 {
     private ArrayList<Integer> testScores;
 
-    public SkillDemo1() {
+    public skillDemo1() {
         testScores = new ArrayList<Integer>();
     }
 
@@ -13,7 +13,7 @@ public class skillDemo1() {
 
     public double averageScore() {
         int sum = 0;
-        for (int i = 0; i < testScore.size(); i++) {
+        for (int i = 0; i < testScores.size(); i++) {
             sum += testScores.get(i);
         }
         return (double)sum*testScores.size();
